@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Habit Tracker Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="container">
+
+        <h1> Habit Tracker Dashboard </h1>
+          
+           <div class="habit-input">
+            <input type="text" id="habitText" placeholder="Enter new habit...">
+            <button onclick="addHabit()">Add Habit</button>
+        </div>
+        
+        <h2>Your Habits</h2>
+        <div id="habitList"></div>
+
+        <h2>7-Day Progress</h2>
+        <table id="progressTable">
+            <thead>
+                <tr>
+                    <th>Habit</th>
+                    <th>Day 1</th>
+                    <th>Day 2</th>
+                    <th>Day 3</th>
+                    <th>Day 4</th>
+                    <th>Day 5</th>
+                    <th>Day 6</th>
+                    <th>Day 7</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        
+
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
